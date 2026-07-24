@@ -11,7 +11,7 @@ body {
     background-color: #ffffff;
     max-width: 700px; 
     margin: 0 auto; 
-    padding: 2rem 1.5rem; 
+    padding: 2rem 1.5rem;
 }
 
 h1 {
@@ -24,54 +24,58 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25rem;     /* ~20px */
+    font-size: 1.25rem;    
     font-weight: 600;
-    margin-top: 2.5rem;     /* Generous space BEFORE each section */
-    margin-bottom: 1rem;    /* Space AFTER heading */
+    margin-top: 2.5rem;     
+    margin-bottom: 1rem;    
     color: #1a1a1a;
 }
 
-ul {
-    list-style: none; /* Remove default bullets */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
 }
 
-/* Add spacing between project items */
-li {
-    margin-bottom: 1.5rem;
+.cards {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Style the project links */
+.cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+}
+
+
+
 a {
-    color: #2563eb;          /* Professional blue */
-    text-decoration: none;    /* Remove underline by default */
+    color: #2563eb;          
+    text-decoration: none;    
     font-size: 1.1rem;
     transition: color 0.2s ease;
 }
 
 a:hover {
-    text-decoration: underline; /* Show underline on hover for accessibility */
+    text-decoration: underline;
     color: #1d4ed8;
 }
 
-/* Style the project descriptions */
-li p {
-    color: #555555;          /* Lighter gray for secondary text */
-    font-size: 0.95rem;
-    margin-top: 0.25rem;     /* Tight gap between title and description */
-    line-height: 1.5;
+address a{
+    font-size: 2rem;
+    color: #2d2d2d;
+    padding-right: 5px;
+
 }
 
-/* Target specifically the contact list */
-body > ul:last-of-type {
-    display: flex;
-    flex-wrap: wrap;         /* Allows wrapping on small screens */
-    gap: 1.5rem;             /* Space between items */
-    margin-top: 0.5rem;
+
+.contact a:hover{
+    color: dodgerblue;
 }
 
-body > ul:last-of-type li {
-    margin-bottom: 0;        /* Remove the vertical spacing we set earlier */
-}
 
 @media (max-width: 480px) {
     h1 {
