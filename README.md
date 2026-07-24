@@ -1,3 +1,3 @@
-# git_test
+# Personal Website
 
-Hello Odin!
+A site where I showcase my previous projects and what I'm up to. Also an excuse to learn HTML and CSS. 
