@@ -14,14 +14,39 @@ body {
     padding: 2rem 1.5rem;
 }
 
+nav ul {
+    display: flex; 
+    list-style: none;
+}
+
+nav li {
+    padding-right: 1.2rem;
+    font-weight: 700;
+}
+
+#hero {
+    margin-top: 1.2rem;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#hero:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+}
+
 h1 {
     font-size: 2.5rem;      
     font-weight: 700;       
     margin-bottom: 0.5rem;  
     letter-spacing: -0.02em; 
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    
 }
+
 
 h2 {
     font-size: 1.25rem;    
@@ -29,6 +54,11 @@ h2 {
     margin-top: 2.5rem;     
     margin-bottom: 1rem;    
     color: #1a1a1a;
+    font-size: 25px;
+    font-weight: 620;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .projects {
@@ -68,7 +98,6 @@ address a{
     font-size: 2rem;
     color: #2d2d2d;
     padding-right: 5px;
-
 }
 
 
