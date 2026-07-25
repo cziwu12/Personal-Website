@@ -4,13 +4,13 @@ A site where I showcase my previous projects and what I'm up to. Also an excuse 
 
 ## Features
 
--Navigations bar
--Hero Card
--Project Cards
--Contact Section
+- Navigations bar
+- Hero Card
+- Project Cards
+- Contact Section
 
 ## Techstack
--HTML
--CSS
+- HTML
+- CSS
 
 
