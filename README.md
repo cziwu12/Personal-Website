@@ -1,6 +1,6 @@
 # Personal Website
 
-A site where I showcase my previous projects and what I'm up to. It'll also be the site I use for my resume. Also an excuse to learn HTML and CSS. I think I'm going modify this to look more professional as I add more features to it.
+A site where I showcase my previous projects and what I'm up to. It'll also be the site I use for my resume. Also an excuse to learn HTML and CSS. It has an about section, project cards that lead to my articles about those projects and my contacts. I also has a "lift" animation and I wanted to go with a professional and minimalistic style (no crazy garish or quirky color bases) as I already said I'm using this as part of my resume. I think I'm going modify this to look more professional as I add more features to it.
 
 Hosted on Vercel: https://ziwu-chong.vercel.app/
 
@@ -16,5 +16,7 @@ Hosted on Vercel: https://ziwu-chong.vercel.app/
 ## Techstack
 - HTML
 - CSS
+
+
 
 
