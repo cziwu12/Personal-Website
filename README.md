@@ -17,6 +17,13 @@ Hosted on Vercel: https://ziwu-chong.vercel.app/
 - HTML
 - CSS
 
+## Setup 
+
+### Option 1
+Download or clone the repo and open `index.html`
+
+### Option 2
+Open terminal and navigate to the project folder. Then `npx serve`, open the browser and go to the local URL provided in the terminal (usually http://localhost:3000).
 
 
 
